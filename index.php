@@ -8,7 +8,7 @@ return [
     /**
      * Unique name that identifies your theme.
      */
-    'name' => 'theme-log',
+    'name' => 'lop',
 
     /**
      * Define menu positions.
