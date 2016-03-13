@@ -7,4 +7,4 @@ A simpy Pagekit Theme
 
 > This is a simple Pagekit Template with Zurb's Foundation as Gird.
 
-Visit Demo(not yet): [palmus.olen.ch](palmus.olen.ch)
+Visit Demo(not yet): [palmus.olen.ch](http://palmus.olen.ch)
