@@ -7,7 +7,8 @@ A simple Pagekit Theme with Zurb's Foundation as Gird.
 
 Visit Demo(not yet): [palmus.olen.ch](http://palmus.olen.ch)
 
-##### Version 0.0.1
-```
-- build structure
-```
+Versions:
+
+0.0.1 - 13. March 2016
+
+        - Build the basic structure
