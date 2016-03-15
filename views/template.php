@@ -51,7 +51,7 @@
 		<footer class="footer">
 			<div class="row">
 				<div class="large-12 columns">
-				  <?= $view->position('footer') ?>
+				  <?= $view->position('footer', 'position-grid.php') ?>
 				</div>
 			</div>
 		</footer>
