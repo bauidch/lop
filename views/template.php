@@ -28,7 +28,7 @@
 		
 		<?php if ($view->position()->exists('hero')) : ?>
 		<div id="slider">
-			<?= $view->position('hero', 'position-grid.php') ?>
+			<?= $view->position('hero', 'position-blank.php') ?>
 		</div> <!--End #slider -->
 		<?php endif; ?>
 
@@ -51,7 +51,7 @@
 		<footer class="footer">
 			<div class="row">
 				<div class="large-12 columns">
-				  <?= $view->position('footer', 'position-grid.php') ?>
+				  <?= $view->position('footer', 'position-blank.php') ?>
 				</div>
 			</div>
 		</footer>
