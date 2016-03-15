@@ -1,27 +1,103 @@
 /*
  * Theme CSS
+ * Theme Name: LOP
+ * Theme URI: http://bauid.ch/
+ * Author: Lukas Bauer
  */
  
- a {
-	 color: red;
-	 
- }
- a:hover {
-	 color: orange;
-	 
- }
+* {
+    padding: 0;
+    margin: 0;
+     
+}
+body {
+    background-color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+a {
+	color: #56445D;
+}
+a:hover {
+	color: #56445D;
+	text-decoration: underline;
+}
 
 /*
  * Nav
  */
 
-.uk-nav {}
+.row {
+  max-width: 80%; }
 
-.uk-active {}
+.fi-unlock{
+	font-size:2rem;
+}
+.fi-list{
+	font-size:2rem;
+}
 
-.uk-parent {}
 
-.uk-nav-sub {}
+.menu {
+  background-color: #8FBC94;/*#292c2f*/
+  padding: 1.5rem 3rem;
+  height: auto; 
+}
+
+.menu .inline-list {
+    text-align: center; 
+}
+.menu .inline-list li {
+	float: none;
+	display: inline-block; 
+}
+.menu .inline-list a {
+	color: #fff;	
+	background-color: #8FBC94;
+}
+.menu .inline-list a:hover {
+	color: #383A3F;
+	background-color: white;
+	text-decoration: none;
+}
+    .menu .inline-list .active a {
+      color: #87d37c; }
+  .menu .account {
+    position: absolute;
+    top: 3%;
+    right: 3%; }
+    .menu .account a, .menu .account i {
+      color: #fff; }
+	  
+@media only screen and (min-width: 40.063em) {
+.menu {
+	height: 5rem;
+}
+.menu .inline-list {
+	float: left;
+	margin: 0 0 0 1.5rem; 
+}
+.menu a:hover {
+} 
+}
+.menu .account-action {
+    float: right;
+    margin: -.75rem 0 0 0; 
+}
+	
+.menu .account-action li {
+	margin-left: .2rem; 
+}
+.menu .account-action a {
+      padding: 0.75rem 1rem; 	  
+}
+
+ .name {
+  text-align: center;
+  font-size: 2.1rem;
+  line-height: 1;
+  margin: 0 0 1rem 0;
+  color: white; 
+ }
 
 /*
  * Page and Posts
@@ -114,3 +190,39 @@
 .uk-link-muted {}
 
 .uk-display-block{}
+
+/*
+ * Hero
+ */
+#slider {
+    background-color: rgba(197, 233, 155, 0.25);
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    clear: both;
+}   
+#slider h1 {
+    font-size: 50px;
+    color: #548687;
+}
+#slider p {
+    color: #34495e;
+	font-style: bold;
+	font-size: 20px;
+}
+/*
+ * Footer
+ */
+.footer {
+  background-color: #C5E99B;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 4rem; 
+  margin-top: 10rem;
+  }
+
+.logo {
+	color: #548687;
+	font-size: 1.5rem;
+}
+

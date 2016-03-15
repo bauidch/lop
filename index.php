@@ -29,6 +29,8 @@ return [
     'positions' => [
 
         'sidebar' => 'Sidebar',
+		'hero' => 'Hero',
+		'footer' => 'Footer'
 
     ],
 
