@@ -12,6 +12,11 @@
 		<link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
     </head>
     <body>
+	<style>
+	.menu{background-color: <?= $header_color ?>;}
+	.menu .inline-list a {color: #fff;	background-color: <?= $header_color ?>;}
+	.menu .inline-list a:hover {color: #383A3F;background-color: white;text-decoration: none;}
+	</style>
 		<nav class="menu">
 			<div class="row"> 
 				<?php if ($logo = $params['logo']) : ?>
@@ -19,7 +24,6 @@
 					<img src="<?= $this->escape($logo) ?>" alt="">
 				</a>
 				<?php endif ?>
-				
 				 <?php if ($view->menu()->exists('main')) : ?>
 					<?= $view->menu('main', 'menu-navbar.php') ?>
 				 <?php endif ?>
@@ -32,11 +36,6 @@
 			<?= $view->position('hero', 'position-blank.php') ?>
 		</div> <!--End #slider -->
 		<?php endif; ?>
-
-        <!-- Render widget position -->
-        <?php if ($view->position()->exists('sidebar')) : ?>
-            <?= $view->position('sidebar') ?>
-        <?php endif; ?>
 
         <!-- Render system messages -->
         <?= $view->render('messages') ?>

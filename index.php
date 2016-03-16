@@ -29,6 +29,7 @@ return [
     'positions' => [
 
         'top' => 'Top',
+		'header' => 'Header',
 		'hero' => 'Hero',
 		'footer' => 'Footer'
 
@@ -75,8 +76,8 @@ return [
      * be overwritten.
      */
     'config' => [
-		'copyright' => '<p>Powered by Pagekit - Designed with Foundation</p>',
-		'header_color' => 'black'
+		'copyright' => '',
+		'header_color' => '#2b90d9'
 	],
 	
 	'events' => [
