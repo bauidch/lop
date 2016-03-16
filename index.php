@@ -29,7 +29,6 @@ return [
     'positions' => [
 
         'top' => 'Top',
-		'header' => 'Header',
 		'hero' => 'Hero',
 		'footer' => 'Footer'
 
@@ -40,28 +39,13 @@ return [
      */
     'node' => [
         'title_hide' => false,
-        'title_large' => false,
-        'alignment' => '',
-        'html_class' => '',
-        'sidebar_first' => false,
-        'hero_image' => '',
-        'hero_viewport' => '',
-        'hero_contrast' => '',
-        'hero_parallax' => '',
-        'navbar_transparent' => '',
-        'top_style' => 'uk-block-muted',
-        'main_style' => 'uk-block-default',
-        'bottom_style' => 'uk-block-muted'
+        'hero_image' => ''
     ],
     /**
      * Widget defaults
      */
     'widget' => [
-        'title_hide' => false,
-        'title_size' => 'uk-panel-title',
-        'alignment' => '',
-        'html_class' => '',
-        'panel' => ''
+        'title_hide' => false
     ],
 	
 	 /**
@@ -76,7 +60,6 @@ return [
      * be overwritten.
      */
     'config' => [
-		'copyright' => '',
 		'header_color' => '#2b90d9'
 	],
 	

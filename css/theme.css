@@ -221,7 +221,7 @@ a:hover {
  * Hero
  */
 #slider {
-    background-color: rgba(197, 233, 155, 0.25);
+    background-color: #3B4E32;
     text-align: center;
     padding-top: 8rem;
     padding-bottom: 8rem;
@@ -232,8 +232,9 @@ a:hover {
     font-size: 50px;
     color: white;
 }
-#slider h2, h3, h4, h5, h5 {
+#slider h2{
     color: white;
+    font-size: 1.6875rem;
 }
 #slider p {
     color: white;
