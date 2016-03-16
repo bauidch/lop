@@ -55,12 +55,18 @@
 </template>
 
 <script>
+
     module.exports = {
+
         section: {
             label: 'Theme',
             priority: 90
         },
+
         props: ['widget', 'config']
+
     };
+
     window.Widgets.components['theme'] = module.exports;
+
 </script>

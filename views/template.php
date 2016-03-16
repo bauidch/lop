@@ -19,6 +19,7 @@
 					<img src="<?= $this->escape($logo) ?>" alt="">
 				</a>
 				<?php endif ?>
+				
 				 <?php if ($view->menu()->exists('main')) : ?>
 					<?= $view->menu('main', 'menu-navbar.php') ?>
 				 <?php endif ?>

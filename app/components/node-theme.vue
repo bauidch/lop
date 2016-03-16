@@ -94,12 +94,18 @@
 </template>
 
 <script>
+
     module.exports = {
+
         section: {
             label: 'Theme',
             priority: 90
         },
+
         props: ['node']
+
     };
+
     window.Site.components['node-theme'] = module.exports;
+
 </script>

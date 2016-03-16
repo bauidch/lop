@@ -28,7 +28,7 @@ return [
      */
     'positions' => [
 
-        'sidebar' => 'Sidebar',
+        'top' => 'Top',
 		'hero' => 'Hero',
 		'footer' => 'Footer'
 
@@ -76,14 +76,15 @@ return [
      */
     'config' => [
 		'copyright' => '<p>Powered by Pagekit - Designed with Foundation</p>',
+		'header_color' => 'black'
 	],
 	
 	'events' => [
 
 		'view.system/site/admin/settings' => function ($event, $view) use ($app) {
-			$view->script('site-theme', 'theme:js/site-theme.js', 'site-settings');
-			$view->data('$theme', $this);
-		},
+            $view->script('site-theme', 'theme:app/bundle/site-theme.js', 'site-settings');
+            $view->data('$theme', $this);
+        },
 		'view.system/site/admin/edit' => function ($event, $view) {
             $view->script('node-theme', 'theme:app/bundle/node-theme.js', 'site-edit');
         },

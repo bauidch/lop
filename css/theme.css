@@ -1,7 +1,7 @@
 /*
  * Theme CSS
  * Theme Name: LOP
- * Theme URI: http://bauid.ch/
+ * Theme URI: http://bauid.ch
  * Author: Lukas Bauer
  */
  
@@ -29,15 +29,12 @@ a:hover {
 .row {
   max-width: 80%; }
 
-.fi-unlock{
-	font-size:2rem;
-}
 .fi-list{
 	font-size:2rem;
 }
 
 .menu {
-  background-color: #8FBC94;/*#292c2f*/
+  background-color: #2b90d9; /*#8FBC94 #292c2f*/
   padding: 1.5rem 3rem;
   height: auto; 
 }
@@ -51,7 +48,7 @@ a:hover {
 }
 .menu .inline-list a {
 	color: #fff;	
-	background-color: #8FBC94;
+	background-color: #2b90d9;
 }
 .menu .inline-list a:hover {
 	color: #383A3F;
@@ -102,11 +99,22 @@ a:hover {
  * Page and Posts
  */
 
-.uk-article {}
+.subtitle {
+	color: #9EABB3;
+}   
 
-.uk-article-title {}
+.post {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.single-post {
+	padding-top: 3rem;
+	padding-bottom: 1rem;
+}
+.single-post .date{
+	color: #9EABB3;
+}
 
-.uk-article-meta{}
 
 /*
  * Subnav
@@ -170,12 +178,10 @@ a:hover {
 .button-white {
     border: 3px white solid;
     margin: 0 0 1.25rem;
-    position: relative;
     text-decoration: none;
     text-align: center;
     -webkit-appearance: none;
     -moz-appearance: none;
-    display: inline-block;
     padding-top: 1rem;
     padding-right: 2rem;
     padding-bottom: 1.0625rem;
@@ -226,12 +232,20 @@ a:hover {
  * Footer
  */
 .footer {
-  background-color: #C5E99B;
+  background-color: #3AA2D9;
   text-align: center;
   font-size: 1.2rem;
   padding: 4rem; 
   margin-top: 10rem;
+  color: white;
   }
+ 
+.footer a {
+	color:white;
+} 
+.footer a:hover {
+	text-decoration:underline;
+} 
 
 .logo {
 	color: #548687;
