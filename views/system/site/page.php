@@ -1,9 +1,9 @@
 <div class="post">
 
     <?php if (!$node->theme['title_hide']) : ?>
-    <h2 class=""><?= $page->title ?></h2>
+    <h2><?= $page->title ?></h2>
     <?php endif ?>
 
-    <?= $page->content ?>
+    <div class="static-inhalt"><?= $page->content ?></div>
 
 </div>

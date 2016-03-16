@@ -7,9 +7,9 @@
         <?= $view->render('head') ?>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/css/normalize.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/css/foundation.css">
+		<link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
         <?php $view->style('theme', 'theme:css/theme.css') ?>
         <?php $view->script('theme', 'theme:js/theme.js') ?>
-		<link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
     </head>
     <body>
 	<style>
@@ -32,7 +32,7 @@
 		</nav>
 		
 		<?php if ($view->position()->exists('hero')) : ?>
-		<div id="slider">
+		<div id="slider" <?= $params['hero_image'] ? "style=\"background-image: url('{$view->url($params['hero_image'])}');\"" : '' ?>>
 			<?= $view->position('hero', 'position-blank.php') ?>
 		</div> <!--End #slider -->
 		<?php endif; ?>
@@ -56,7 +56,6 @@
 			</div>
 		</footer>
         <?php endif; ?>
-
         <!-- Insert code before the closing body tag  -->
         <?= $view->render('footer') ?>
 

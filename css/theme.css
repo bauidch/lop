@@ -107,6 +107,14 @@ a:hover {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 }
+.post a {
+	color: black;
+	text-decoration: none;
+}
+.post a:hover {
+	color: black;
+	text-decoration: underline;
+}
 .single-post {
 	padding-top: 3rem;
 	padding-bottom: 1rem;
@@ -215,16 +223,20 @@ a:hover {
 #slider {
     background-color: rgba(197, 233, 155, 0.25);
     text-align: center;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
     clear: both;
+	color: white;
 }   
 #slider h1 {
     font-size: 50px;
-    color: #548687;
+    color: white;
+}
+#slider h2, h3, h4, h5, h5 {
+    color: white;
 }
 #slider p {
-    color: #34495e;
+    color: white;
 	font-style: bold;
 	font-size: 20px;
 }
@@ -236,7 +248,7 @@ a:hover {
   text-align: center;
   font-size: 1.2rem;
   padding: 4rem; 
-  margin-top: 10rem;
+  margin-top: 4rem;
   color: white;
   }
  

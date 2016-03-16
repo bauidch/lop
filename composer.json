@@ -3,7 +3,7 @@
     "type": "pagekit-theme",
     "version": "0.0.2",
     "title": "LOP",
-    "description": "A simple Theme",
+    "description": "A simple Pagekit Theme with Zurb's Foundation.",
     "license": "MIT",
     "authors": [
         {
