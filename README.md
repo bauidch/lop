@@ -3,7 +3,7 @@
 ![forthebadge](http://forthebadge.com/images/badges/uses-html.svg)
 ![forthebadge](http://forthebadge.com/images/badges/uses-css.svg)
 
-Show Demo on: lop.bauid.ch/(http://lop.bauid.ch)
+Show Demo on: [lop.bauid.ch](http://lop.bauid.ch)
 
 A simple Pagekit Theme with Zurb's Foundation as Gird.
 Based on the Pagekit Theme One.
